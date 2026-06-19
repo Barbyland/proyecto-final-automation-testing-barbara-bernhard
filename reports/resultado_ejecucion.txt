@@ -1,0 +1,21 @@
+Ejecucion de pruebas automatizadas - Proyecto Final
+
+Fecha de ejecucion local: 2026-06-18
+Entorno: Windows, Python 3.10.7
+Comando:
+..\pre-entrega-final\.venv\Scripts\python.exe -m pytest -v --headless --html=reports\reporte.html --self-contained-html
+
+Resultado final validado:
+11 passed in 295.98s
+
+Detalle:
+- API: 4 casos passed
+- UI SauceDemo: 7 casos passed
+
+Reportes generados:
+- reports/reporte.html
+- reports/reporte_api.html
+- reports/reporte_ui.html
+- reports/automation.log
+
+No se generaron nuevas capturas por fallos en la ejecucion final exitosa.

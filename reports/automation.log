@@ -1,0 +1,136 @@
+2026-06-18 22:18:09 | INFO | api | Ejecutando GET /posts/1
+2026-06-18 22:18:10 | INFO | api | Ejecutando POST /posts
+2026-06-18 22:18:11 | INFO | api | Ejecutando DELETE /posts/1
+2026-06-18 22:26:16 | INFO | api | Ejecutando GET /posts/1
+2026-06-18 22:26:17 | INFO | api | Ejecutando POST /posts
+2026-06-18 22:26:25 | INFO | api | Ejecutando DELETE /posts/1
+2026-06-18 22:29:35 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:29:50 | INFO | ui | Validando login exitoso
+2026-06-18 22:29:53 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:30:12 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:30:20 | INFO | ui | Validando login invalido: usuario_invalido
+2026-06-18 22:30:23 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:30:32 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:30:38 | INFO | ui | Validando login invalido: password_invalida
+2026-06-18 22:30:41 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:30:49 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:30:56 | INFO | ui | Validando catalogo de productos
+2026-06-18 22:31:00 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:31:07 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:31:14 | INFO | ui | Validando agregado de producto al carrito
+2026-06-18 22:31:31 | ERROR | tests | Test fallido: test_agregar_primer_producto_al_carrito. Screenshot: C:\Users\Barbara\Desktop\AUTOMATIZACION QA\proyecto-final-automation-testing-barbara-bernhard\screenshots\20260618_223130_test_agregar_primer_producto_al_carrito.png
+2026-06-18 22:31:31 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:31:38 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:31:45 | INFO | ui | Validando remocion de producto
+2026-06-18 22:31:50 | ERROR | tests | Test fallido: test_remover_producto_del_carrito_actualiza_contador. Screenshot: C:\Users\Barbara\Desktop\AUTOMATIZACION QA\proyecto-final-automation-testing-barbara-bernhard\screenshots\20260618_223149_test_remover_producto_del_carrito_actualiza_contador.png
+2026-06-18 22:31:50 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:31:58 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:32:06 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 22:32:21 | ERROR | tests | Test fallido: test_checkout_completo_finaliza_compra. Screenshot: C:\Users\Barbara\Desktop\AUTOMATIZACION QA\proyecto-final-automation-testing-barbara-bernhard\screenshots\20260618_223220_test_checkout_completo_finaliza_compra.png
+2026-06-18 22:32:21 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:35:38 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:35:47 | INFO | ui | Validando agregado de producto al carrito
+2026-06-18 22:35:52 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:36:01 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:36:08 | INFO | ui | Validando remocion de producto
+2026-06-18 22:36:23 | ERROR | tests | Test fallido: test_remover_producto_del_carrito_actualiza_contador. Screenshot: C:\Users\Barbara\Desktop\AUTOMATIZACION QA\proyecto-final-automation-testing-barbara-bernhard\screenshots\20260618_223623_test_remover_producto_del_carrito_actualiza_contador.png
+2026-06-18 22:36:23 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:36:35 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:36:43 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 22:36:58 | ERROR | tests | Test fallido: test_checkout_completo_finaliza_compra. Screenshot: C:\Users\Barbara\Desktop\AUTOMATIZACION QA\proyecto-final-automation-testing-barbara-bernhard\screenshots\20260618_223658_test_checkout_completo_finaliza_compra.png
+2026-06-18 22:36:58 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:38:34 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:38:42 | INFO | ui | Validando agregado de producto al carrito
+2026-06-18 22:38:46 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:39:00 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:39:07 | INFO | ui | Validando remocion de producto
+2026-06-18 22:39:11 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:39:33 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:39:41 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 22:40:02 | ERROR | tests | Test fallido: test_checkout_completo_finaliza_compra. Screenshot: C:\Users\Barbara\Desktop\AUTOMATIZACION QA\proyecto-final-automation-testing-barbara-bernhard\screenshots\20260618_224002_test_checkout_completo_finaliza_compra.png
+2026-06-18 22:40:02 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:42:05 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:42:18 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 22:42:41 | ERROR | tests | Test fallido: test_checkout_completo_finaliza_compra. Screenshot: C:\Users\Barbara\Desktop\AUTOMATIZACION QA\proyecto-final-automation-testing-barbara-bernhard\screenshots\20260618_224241_test_checkout_completo_finaliza_compra.png
+2026-06-18 22:42:41 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:43:47 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:43:55 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 22:44:15 | ERROR | tests | Test fallido: test_checkout_completo_finaliza_compra. Screenshot: C:\Users\Barbara\Desktop\AUTOMATIZACION QA\proyecto-final-automation-testing-barbara-bernhard\screenshots\20260618_224414_test_checkout_completo_finaliza_compra.png
+2026-06-18 22:44:15 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:45:14 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:45:21 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 22:45:26 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:46:07 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:46:14 | INFO | ui | Validando login exitoso
+2026-06-18 22:46:17 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:46:27 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:46:35 | INFO | ui | Validando login invalido: usuario_invalido
+2026-06-18 22:46:39 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:46:47 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:46:56 | INFO | ui | Validando login invalido: password_invalida
+2026-06-18 22:47:00 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:47:37 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:47:48 | INFO | ui | Validando catalogo de productos
+2026-06-18 22:47:54 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:48:11 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:48:23 | INFO | ui | Validando agregado de producto al carrito
+2026-06-18 22:48:30 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:48:53 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:49:00 | INFO | ui | Validando remocion de producto
+2026-06-18 22:49:07 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:49:21 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:49:27 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 22:49:37 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:50:25 | INFO | api | Ejecutando GET /posts/1
+2026-06-18 22:50:26 | INFO | api | Ejecutando POST /posts
+2026-06-18 22:50:37 | INFO | api | Ejecutando DELETE /posts/1
+2026-06-18 22:50:38 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:50:47 | INFO | ui | Validando login exitoso
+2026-06-18 22:50:50 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:51:13 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:51:21 | INFO | ui | Validando login invalido: usuario_invalido
+2026-06-18 22:51:24 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:51:33 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:51:40 | INFO | ui | Validando login invalido: password_invalida
+2026-06-18 22:51:43 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:51:49 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:51:55 | INFO | ui | Validando catalogo de productos
+2026-06-18 22:51:59 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:52:07 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:52:14 | INFO | ui | Validando agregado de producto al carrito
+2026-06-18 22:52:17 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:52:23 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:52:29 | INFO | ui | Validando remocion de producto
+2026-06-18 22:52:32 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 22:52:39 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 22:52:46 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 22:52:51 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 23:17:37 | INFO | api | Ejecutando GET /posts/1
+2026-06-18 23:17:37 | INFO | api | Ejecutando POST /posts
+2026-06-18 23:17:38 | INFO | api | Ejecutando DELETE /posts/1
+2026-06-18 23:17:38 | INFO | api | Ejecutando GET /posts/999999 para validar manejo de error
+2026-06-18 23:25:06 | INFO | api | Ejecutando GET /posts/1
+2026-06-18 23:25:06 | INFO | api | Ejecutando POST /posts
+2026-06-18 23:25:07 | INFO | api | Ejecutando DELETE /posts/1
+2026-06-18 23:25:07 | INFO | api | Ejecutando GET /posts/999999 para validar manejo de error
+2026-06-18 23:25:07 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 23:25:16 | INFO | ui | Validando login exitoso
+2026-06-18 23:25:20 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 23:25:30 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 23:25:42 | INFO | ui | Validando login invalido: usuario_invalido
+2026-06-18 23:25:45 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 23:26:07 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 23:26:13 | INFO | ui | Validando login invalido: password_invalida
+2026-06-18 23:26:22 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 23:26:54 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 23:27:02 | INFO | ui | Validando catalogo de productos
+2026-06-18 23:27:05 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 23:27:19 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 23:27:28 | INFO | ui | Validando agregado de producto al carrito
+2026-06-18 23:27:44 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 23:28:11 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 23:28:42 | INFO | ui | Validando remocion de producto
+2026-06-18 23:28:51 | INFO | tests | Cerrando navegador Chrome
+2026-06-18 23:29:22 | INFO | tests | Iniciando navegador Chrome
+2026-06-18 23:29:36 | INFO | ui | Validando flujo completo de checkout
+2026-06-18 23:29:42 | INFO | tests | Cerrando navegador Chrome

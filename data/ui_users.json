@@ -1,0 +1,25 @@
+{
+  "valid_user": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalid_users": [
+    {
+      "case": "usuario_invalido",
+      "username": "usuario_incorrecto",
+      "password": "secret_sauce",
+      "expected_error": "Username and password do not match"
+    },
+    {
+      "case": "password_invalida",
+      "username": "standard_user",
+      "password": "password_incorrecta",
+      "expected_error": "Username and password do not match"
+    }
+  ],
+  "checkout_user": {
+    "first_name": "Barbara",
+    "last_name": "Bernhard",
+    "postal_code": "5000"
+  }
+}
