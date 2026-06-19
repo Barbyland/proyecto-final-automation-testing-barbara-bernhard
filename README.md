@@ -149,12 +149,12 @@ En el reporte HTML se puede revisar:
 La ultima ejecucion completa fue realizada en Windows con Python 3.10.7:
 
 ```text
-11 tests implementados.
+11 passed in 295.98s
 ```
 
 Detalle:
 
-- 4 pruebas API passed en la ultima ejecucion API.
+- 4 pruebas API passed.
 - 7 pruebas UI passed.
 - Reporte principal: `reports/reporte.html`.
 - Resumen textual: `reports/resultado_ejecucion.txt`.
