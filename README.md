@@ -165,8 +165,6 @@ El workflow `.github/workflows/tests.yml` ejecuta las pruebas en GitHub Actions 
 
 ## Repositorio
 
-Nombre sugerido por la consigna:
+Repositorio publico de entrega:
 
-```text
-proyecto-final-automation-testing-barbara-bernhard
-```
+https://github.com/Barbyland/proyecto-final-automation-testing-barbara-bernhard
