@@ -1,0 +1,54 @@
+2026-06-23 19:26:03 | INFO | api | Ejecutando GET /posts/1
+2026-06-23 19:26:03 | INFO | api | Ejecutando POST /posts
+2026-06-23 19:26:04 | INFO | api | Ejecutando DELETE /posts/1
+2026-06-23 19:26:05 | INFO | api | Ejecutando GET /posts/999999 para validar manejo de error
+2026-06-23 19:26:56 | INFO | api | Ejecutando GET /posts/1
+2026-06-23 19:26:57 | INFO | api | Ejecutando POST /posts
+2026-06-23 19:27:08 | INFO | api | Ejecutando DELETE /posts/1
+2026-06-23 19:27:10 | INFO | api | Ejecutando GET /posts/999999 para validar manejo de error
+2026-06-23 19:27:30 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:27:53 | INFO | ui | Validando login exitoso
+2026-06-23 19:27:58 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:28:28 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:28:43 | INFO | ui | Validando login invalido: usuario_invalido
+2026-06-23 19:28:46 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:29:13 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:29:19 | INFO | ui | Validando login invalido: password_invalida
+2026-06-23 19:29:22 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:29:35 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:29:43 | INFO | ui | Validando catalogo de productos
+2026-06-23 19:29:52 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:30:12 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:30:21 | INFO | ui | Validando agregado de producto al carrito
+2026-06-23 19:30:29 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:30:38 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:30:49 | INFO | ui | Validando remocion de producto
+2026-06-23 19:30:54 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:31:15 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:31:21 | INFO | ui | Validando flujo completo de checkout
+2026-06-23 19:31:24 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:34:55 | INFO | api | Ejecutando GET /posts/1
+2026-06-23 19:34:55 | INFO | api | Ejecutando POST /posts
+2026-06-23 19:35:06 | INFO | api | Ejecutando DELETE /posts/1
+2026-06-23 19:35:16 | INFO | api | Ejecutando GET /posts/999999 para validar manejo de error
+2026-06-23 19:35:16 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:35:22 | INFO | ui | Validando login exitoso
+2026-06-23 19:35:25 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:35:37 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:35:50 | INFO | ui | Validando login invalido: usuario_invalido
+2026-06-23 19:35:52 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:35:57 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:36:04 | INFO | ui | Validando login invalido: password_invalida
+2026-06-23 19:36:07 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:36:32 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:36:39 | INFO | ui | Validando catalogo de productos
+2026-06-23 19:36:42 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:36:47 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:36:54 | INFO | ui | Validando agregado de producto al carrito
+2026-06-23 19:36:57 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:37:04 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:37:11 | INFO | ui | Validando remocion de producto
+2026-06-23 19:37:15 | INFO | tests | Cerrando navegador Chrome
+2026-06-23 19:37:21 | INFO | tests | Iniciando navegador Chrome
+2026-06-23 19:37:28 | INFO | ui | Validando flujo completo de checkout
+2026-06-23 19:37:32 | INFO | tests | Cerrando navegador Chrome

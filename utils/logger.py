@@ -3,12 +3,12 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-LOG_FILE = REPORTS_DIR / "automation.log"
+LOGS_DIR = PROJECT_ROOT / "logs"
+LOG_FILE = LOGS_DIR / "automation.log"
 
 
 def get_logger(name):
-    REPORTS_DIR.mkdir(exist_ok=True)
+    LOGS_DIR.mkdir(exist_ok=True)
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
 

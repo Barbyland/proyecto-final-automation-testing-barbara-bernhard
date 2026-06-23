@@ -1,4 +1,5 @@
 pytest==8.3.5
+pytest-check==2.8.0
 pytest-html==4.1.1
 requests==2.34.0
 selenium==4.43.0

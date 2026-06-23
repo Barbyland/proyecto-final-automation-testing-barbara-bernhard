@@ -14,10 +14,22 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from utils.logger import get_logger  # noqa: E402
+from pages.posts_api_page import PostsApiPage  # noqa: E402
+from utils.data_loader import load_json  # noqa: E402
 
 
 SCREENSHOTS_DIR = PROJECT_ROOT / "screenshots"
 logger = get_logger("tests")
+
+
+@pytest.fixture
+def posts_api():
+    return PostsApiPage()
+
+
+@pytest.fixture
+def post_data():
+    return load_json("api_payloads.json")["new_post"]
 
 
 def pytest_addoption(parser):
@@ -27,6 +39,10 @@ def pytest_addoption(parser):
         default=False,
         help="Ejecuta Chrome en modo headless.",
     )
+
+
+def pytest_html_report_title(report):
+    report.title = "Proyecto Final Automation Testing - UI + API"
 
 
 @pytest.fixture

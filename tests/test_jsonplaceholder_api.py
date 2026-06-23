@@ -1,49 +1,49 @@
-import requests
 import pytest
+from pytest_check import check
 
-from utils.data_loader import load_json
 from utils.logger import get_logger
 
 
-BASE_URL = "https://jsonplaceholder.typicode.com"
-payloads = load_json("api_payloads.json")
 logger = get_logger("api")
 
 
 @pytest.mark.api
 @pytest.mark.smoke
-def test_get_post_existente_devuelve_json_valido():
+def test_get_post_existente_devuelve_json_valido(posts_api):
     logger.info("Ejecutando GET /posts/1")
-    response = requests.get(f"{BASE_URL}/posts/1", timeout=10)
+    response = posts_api.get_post(1)
     body = response.json()
 
-    assert response.status_code == 200
-    assert body["id"] == 1
-    assert body["userId"] == 1
-    assert isinstance(body["title"], str)
-    assert isinstance(body["body"], str)
+    check.equal(response.status_code, 200)
+    check.equal(body["id"], 1)
+    check.equal(body["userId"], 1)
+    check.is_true(isinstance(body["title"], str))
+    check.is_true(isinstance(body["body"], str))
 
 
 @pytest.mark.api
 @pytest.mark.regression
-def test_post_crea_recurso_con_payload_externo():
+def test_post_crea_recurso_con_payload_externo(posts_api, post_data):
     logger.info("Ejecutando POST /posts")
-    payload = payloads["new_post"]
-    response = requests.post(f"{BASE_URL}/posts", json=payload, timeout=10)
+    response = posts_api.create_post(
+        post_data["title"],
+        post_data["body"],
+        post_data["userId"],
+    )
     body = response.json()
 
-    assert response.status_code == 201
-    assert body["title"] == payload["title"]
-    assert body["body"] == payload["body"]
-    assert body["userId"] == payload["userId"]
-    assert "id" in body
+    check.equal(response.status_code, 201)
+    check.equal(body["title"], post_data["title"])
+    check.equal(body["body"], post_data["body"])
+    check.equal(body["userId"], post_data["userId"])
+    check.is_in("id", body)
 
 
 @pytest.mark.api
 @pytest.mark.regression
-def test_delete_post_devuelve_respuesta_exitosa():
+def test_delete_post_devuelve_respuesta_exitosa(posts_api):
     logger.info("Ejecutando DELETE /posts/1")
-    response = requests.delete(f"{BASE_URL}/posts/1", timeout=10)
+    response = posts_api.delete_post(1)
 
     assert response.status_code == 200
     assert response.text == "{}"
@@ -51,9 +51,9 @@ def test_delete_post_devuelve_respuesta_exitosa():
 
 @pytest.mark.api
 @pytest.mark.regression
-def test_get_post_inexistente_maneja_error_404():
+def test_get_post_inexistente_maneja_error_404(posts_api):
     logger.info("Ejecutando GET /posts/999999 para validar manejo de error")
-    response = requests.get(f"{BASE_URL}/posts/999999", timeout=10)
+    response = posts_api.get_post(999999)
 
     assert response.status_code == 404
     assert response.json() == {}

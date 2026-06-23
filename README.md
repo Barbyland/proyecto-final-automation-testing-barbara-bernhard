@@ -13,6 +13,7 @@ El objetivo es demostrar un framework mantenible, escalable e independiente, apl
 
 - Python 3.10+
 - Pytest
+- Pytest Check
 - Selenium WebDriver
 - Webdriver Manager
 - Requests
@@ -33,10 +34,12 @@ proyecto-final-automation-testing-barbara-bernhard/
     checkout_page.py
     inventory_page.py
     login_page.py
+    posts_api_page.py
   reports/
-    automation.log
     reporte.html
     resultado_ejecucion.txt
+  logs/
+    automation.log
   screenshots/
   tests/
     conftest.py
@@ -64,9 +67,10 @@ proyecto-final-automation-testing-barbara-bernhard/
 ## Casos automatizados de API
 
 - GET `/posts/1`: valida codigo 200, estructura y contenido JSON.
-- POST `/posts`: crea un recurso usando payload externo desde JSON.
+- POST `/posts`: crea un recurso usando payload externo desde JSON y la funcion `create_post(title, body, user_id)`.
 - DELETE `/posts/1`: valida respuesta exitosa del borrado.
 - GET `/posts/999999`: valida manejo de error 404 para recurso inexistente.
+- Algunas validaciones API usan `check` para acumular resultados sin cortar el test ante el primer fallo.
 
 ## Instalacion
 
@@ -130,7 +134,7 @@ python -m pytest -m api -v
 ## Reportes y evidencias
 
 - Los reportes HTML se generan en la carpeta `reports/`.
-- El log de ejecucion se genera en `reports/automation.log`.
+- El log de ejecucion se genera en `logs/automation.log`.
 - Si una prueba UI falla, se guarda una captura automatica en `screenshots/`.
 - El nombre de cada captura incluye fecha, hora y nombre del test.
 
@@ -149,7 +153,7 @@ En el reporte HTML se puede revisar:
 La ultima ejecucion completa fue realizada en Windows con Python 3.10.7:
 
 ```text
-11 passed in 295.98s
+11 passed in 160.46s
 ```
 
 Detalle:

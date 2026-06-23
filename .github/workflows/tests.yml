@@ -37,4 +37,5 @@ jobs:
           name: pytest-reports
           path: |
             reports/
+            logs/
             screenshots/
